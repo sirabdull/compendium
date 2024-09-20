@@ -1,0 +1,375 @@
+[07-Jan-2024 21:19:32 Europe/Berlin] PHP Warning:  Undefined variable $timestamp in C:\xampp\htdocs\nmscomp-backend\config\config.php on line 19
+[07-Jan-2024 21:19:32 Europe/Berlin] PHP Warning:  Undefined variable $message in C:\xampp\htdocs\nmscomp-backend\config\config.php on line 19
+[07-Jan-2024 21:19:32 Europe/Berlin] PHP Warning:  Undefined variable $file in C:\xampp\htdocs\nmscomp-backend\config\config.php on line 19
+[07-Jan-2024 21:19:32 Europe/Berlin] PHP Warning:  Undefined variable $line in C:\xampp\htdocs\nmscomp-backend\config\config.php on line 19
+[07-Jan-2024 23:50:15 UTC] PHP Warning:  include(../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/index.php on line 5
+[07-Jan-2024 23:50:15 UTC] PHP Warning:  include(): Failed opening '../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/index.php on line 5
+[07-Jan-2024 23:50:15 UTC] PHP Fatal error:  Uncaught Error: Class "Candidates\Candidate" not found in /home/nmscompe/public_html/dashboard/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/index.php on line 13
+[07-Jan-2024 23:50:37 UTC] PHP Warning:  include(../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/index.php on line 5
+[07-Jan-2024 23:50:37 UTC] PHP Warning:  include(): Failed opening '../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/index.php on line 5
+[07-Jan-2024 23:50:37 UTC] PHP Fatal error:  Uncaught Error: Class "Candidates\Candidate" not found in /home/nmscompe/public_html/dashboard/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/index.php on line 13
+[07-Jan-2024 23:54:04 UTC] PHP Warning:  include(../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/index.php on line 5
+[07-Jan-2024 23:54:04 UTC] PHP Warning:  include(): Failed opening '../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/index.php on line 5
+[07-Jan-2024 23:54:04 UTC] PHP Fatal error:  Uncaught Error: Class "Candidates\Candidate" not found in /home/nmscompe/public_html/dashboard/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/index.php on line 13
+[07-Jan-2024 23:54:10 UTC] PHP Warning:  include(../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/index.php on line 5
+[07-Jan-2024 23:54:10 UTC] PHP Warning:  include(): Failed opening '../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/index.php on line 5
+[07-Jan-2024 23:54:10 UTC] PHP Fatal error:  Uncaught Error: Class "Candidates\Candidate" not found in /home/nmscompe/public_html/dashboard/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/index.php on line 13
+[07-Jan-2024 23:56:04 UTC] PHP Warning:  include(../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/index.php on line 5
+[07-Jan-2024 23:56:04 UTC] PHP Warning:  include(): Failed opening '../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/index.php on line 5
+[07-Jan-2024 23:56:04 UTC] PHP Fatal error:  Uncaught Error: Class "Candidates\Candidate" not found in /home/nmscompe/public_html/dashboard/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/index.php on line 13
+[07-Jan-2024 23:58:40 UTC] PHP Warning:  include(../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/index.php on line 5
+[07-Jan-2024 23:58:40 UTC] PHP Warning:  include(): Failed opening '../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/index.php on line 5
+[07-Jan-2024 23:58:40 UTC] PHP Fatal error:  Uncaught Error: Class "Candidates\Candidate" not found in /home/nmscompe/public_html/dashboard/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/index.php on line 13
+[07-Jan-2024 23:58:42 UTC] PHP Warning:  include(../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/index.php on line 5
+[07-Jan-2024 23:58:42 UTC] PHP Warning:  include(): Failed opening '../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/index.php on line 5
+[07-Jan-2024 23:58:42 UTC] PHP Fatal error:  Uncaught Error: Class "Candidates\Candidate" not found in /home/nmscompe/public_html/dashboard/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/index.php on line 13
+[07-Jan-2024 23:58:43 UTC] PHP Warning:  include(../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/index.php on line 5
+[07-Jan-2024 23:58:43 UTC] PHP Warning:  include(): Failed opening '../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/index.php on line 5
+[07-Jan-2024 23:58:43 UTC] PHP Fatal error:  Uncaught Error: Class "Candidates\Candidate" not found in /home/nmscompe/public_html/dashboard/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/index.php on line 13
+[08-Jan-2024 00:02:53 UTC] PHP Warning:  include(../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/index.php on line 5
+[08-Jan-2024 00:02:53 UTC] PHP Warning:  include(): Failed opening '../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/index.php on line 5
+[08-Jan-2024 00:02:53 UTC] PHP Fatal error:  Uncaught Error: Class "Candidates\Candidate" not found in /home/nmscompe/public_html/dashboard/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/index.php on line 13
+[08-Jan-2024 00:02:56 UTC] PHP Warning:  include(../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/index.php on line 5
+[08-Jan-2024 00:02:56 UTC] PHP Warning:  include(): Failed opening '../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/index.php on line 5
+[08-Jan-2024 00:02:56 UTC] PHP Fatal error:  Uncaught Error: Class "Candidates\Candidate" not found in /home/nmscompe/public_html/dashboard/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/index.php on line 13
+[08-Jan-2024 00:02:57 UTC] PHP Warning:  include(../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/index.php on line 5
+[08-Jan-2024 00:02:57 UTC] PHP Warning:  include(): Failed opening '../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/index.php on line 5
+[08-Jan-2024 00:02:57 UTC] PHP Fatal error:  Uncaught Error: Class "Candidates\Candidate" not found in /home/nmscompe/public_html/dashboard/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/index.php on line 13
+[08-Jan-2024 00:02:58 UTC] PHP Warning:  include(../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/index.php on line 5
+[08-Jan-2024 00:02:58 UTC] PHP Warning:  include(): Failed opening '../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/index.php on line 5
+[08-Jan-2024 00:02:58 UTC] PHP Fatal error:  Uncaught Error: Class "Candidates\Candidate" not found in /home/nmscompe/public_html/dashboard/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/index.php on line 13
+[08-Jan-2024 00:03:03 UTC] PHP Warning:  include(../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/index.php on line 5
+[08-Jan-2024 00:03:03 UTC] PHP Warning:  include(): Failed opening '../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/index.php on line 5
+[08-Jan-2024 00:03:03 UTC] PHP Fatal error:  Uncaught Error: Class "Candidates\Candidate" not found in /home/nmscompe/public_html/dashboard/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/index.php on line 13
+[08-Jan-2024 00:03:41 UTC] PHP Warning:  include(../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/index.php on line 5
+[08-Jan-2024 00:03:41 UTC] PHP Warning:  include(): Failed opening '../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/index.php on line 5
+[08-Jan-2024 00:03:41 UTC] PHP Fatal error:  Uncaught Error: Class "Candidates\Candidate" not found in /home/nmscompe/public_html/dashboard/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/index.php on line 13
+[08-Jan-2024 00:04:02 UTC] PHP Warning:  include(../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/index.php on line 5
+[08-Jan-2024 00:04:02 UTC] PHP Warning:  include(): Failed opening '../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/index.php on line 5
+[08-Jan-2024 00:04:02 UTC] PHP Fatal error:  Uncaught Error: Class "Candidates\Candidate" not found in /home/nmscompe/public_html/dashboard/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/index.php on line 13
+[08-Jan-2024 00:23:57 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Candidates\Candidate::display(), 1 passed in /home/nmscompe/public_html/lib/candclass.PHP on line 224 and exactly 2 expected in /home/nmscompe/public_html/lib/candclass.PHP:163
+Stack trace:
+#0 /home/nmscompe/public_html/lib/candclass.PHP(224): Candidates\Candidate->display()
+#1 /home/nmscompe/public_html/dashboard/index.php(21): Candidates\Candidate->ini_entry()
+#2 {main}
+  thrown in /home/nmscompe/public_html/lib/candclass.PHP on line 163
+[08-Jan-2024 00:24:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Candidates\Candidate::display(), 1 passed in /home/nmscompe/public_html/lib/candclass.PHP on line 224 and exactly 2 expected in /home/nmscompe/public_html/lib/candclass.PHP:163
+Stack trace:
+#0 /home/nmscompe/public_html/lib/candclass.PHP(224): Candidates\Candidate->display()
+#1 /home/nmscompe/public_html/dashboard/index.php(21): Candidates\Candidate->ini_entry()
+#2 {main}
+  thrown in /home/nmscompe/public_html/lib/candclass.PHP on line 163
+[08-Jan-2024 00:24:38 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Candidates\Candidate::display(), 1 passed in /home/nmscompe/public_html/lib/candclass.PHP on line 224 and exactly 2 expected in /home/nmscompe/public_html/lib/candclass.PHP:163
+Stack trace:
+#0 /home/nmscompe/public_html/lib/candclass.PHP(224): Candidates\Candidate->display()
+#1 /home/nmscompe/public_html/dashboard/index.php(21): Candidates\Candidate->ini_entry()
+#2 {main}
+  thrown in /home/nmscompe/public_html/lib/candclass.PHP on line 163
+[08-Jan-2024 00:24:45 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Candidates\Candidate::display(), 1 passed in /home/nmscompe/public_html/lib/candclass.PHP on line 224 and exactly 2 expected in /home/nmscompe/public_html/lib/candclass.PHP:163
+Stack trace:
+#0 /home/nmscompe/public_html/lib/candclass.PHP(224): Candidates\Candidate->display()
+#1 /home/nmscompe/public_html/dashboard/index.php(21): Candidates\Candidate->ini_entry()
+#2 {main}
+  thrown in /home/nmscompe/public_html/lib/candclass.PHP on line 163
+[08-Jan-2024 00:26:00 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Candidates\Candidate::display(), 1 passed in /home/nmscompe/public_html/lib/candclass.PHP on line 224 and exactly 2 expected in /home/nmscompe/public_html/lib/candclass.PHP:163
+Stack trace:
+#0 /home/nmscompe/public_html/lib/candclass.PHP(224): Candidates\Candidate->display()
+#1 /home/nmscompe/public_html/dashboard/index.php(21): Candidates\Candidate->ini_entry()
+#2 {main}
+  thrown in /home/nmscompe/public_html/lib/candclass.PHP on line 163
+[08-Jan-2024 00:27:18 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Candidates\Candidate::display(), 1 passed in /home/nmscompe/public_html/lib/candclass.PHP on line 224 and exactly 2 expected in /home/nmscompe/public_html/lib/candclass.PHP:163
+Stack trace:
+#0 /home/nmscompe/public_html/lib/candclass.PHP(224): Candidates\Candidate->display()
+#1 /home/nmscompe/public_html/dashboard/index.php(25): Candidates\Candidate->ini_entry()
+#2 {main}
+  thrown in /home/nmscompe/public_html/lib/candclass.PHP on line 163
+[08-Jan-2024 01:20:28 UTC] PHP Fatal error:  Uncaught Error: Class "Faker\Factory" not found in /home/nmscompe/public_html/Test/fakequestions.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/Test/fakequestions.php on line 9
+[08-Jan-2024 01:25:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Container\ContainerInterface" not found in /home/nmscompe/public_html/vendor/fakerphp/faker/src/Faker/Container/ContainerInterface.php:7
+Stack trace:
+#0 /home/nmscompe/public_html/vendor/composer/ClassLoader.php(576): include()
+#1 /home/nmscompe/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#2 /home/nmscompe/public_html/vendor/fakerphp/faker/src/Faker/Container/Container.php(14): Composer\Autoload\ClassLoader->loadClass()
+#3 /home/nmscompe/public_html/vendor/composer/ClassLoader.php(576): include('/home/nmscompe/...')
+#4 /home/nmscompe/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#5 /home/nmscompe/public_html/vendor/fakerphp/faker/src/Faker/Container/ContainerBuilder.php(41): Composer\Autoload\ClassLoader->loadClass()
+#6 /home/nmscompe/public_html/vendor/fakerphp/faker/src/Faker/Generator.php(570): Faker\Container\ContainerBuilder->build()
+#7 /home/nmscompe/public_html/vendor/fakerphp/faker/src/Faker/Factory.php(20): Faker\Generator->__construct()
+#8 /home/nmscompe/public_html/Test/fakequestions.php(9): Faker\Factory::create()
+#9 {main}
+  thrown in /home/nmscompe/public_html/vendor/fakerphp/faker/src/Faker/Container/ContainerInterface.php on line 7
+[08-Jan-2024 01:29:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Container\ContainerInterface" not found in /home/nmscompe/public_html/vendor/fakerphp/faker/src/Faker/Container/ContainerInterface.php:7
+Stack trace:
+#0 /home/nmscompe/public_html/vendor/composer/ClassLoader.php(576): include()
+#1 /home/nmscompe/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#2 /home/nmscompe/public_html/vendor/fakerphp/faker/src/Faker/Container/Container.php(14): Composer\Autoload\ClassLoader->loadClass()
+#3 /home/nmscompe/public_html/vendor/composer/ClassLoader.php(576): include('/home/nmscompe/...')
+#4 /home/nmscompe/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+#5 /home/nmscompe/public_html/vendor/fakerphp/faker/src/Faker/Container/ContainerBuilder.php(41): Composer\Autoload\ClassLoader->loadClass()
+#6 /home/nmscompe/public_html/vendor/fakerphp/faker/src/Faker/Generator.php(570): Faker\Container\ContainerBuilder->build()
+#7 /home/nmscompe/public_html/vendor/fakerphp/faker/src/Faker/Factory.php(20): Faker\Generator->__construct()
+#8 /home/nmscompe/public_html/Test/fakequestions.php(9): Faker\Factory::create()
+#9 {main}
+  thrown in /home/nmscompe/public_html/vendor/fakerphp/faker/src/Faker/Container/ContainerInterface.php on line 7
+[01-Feb-2024 00:40:20 UTC] PHP Warning:  Undefined array key "name" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 4
+[01-Feb-2024 00:40:20 UTC] PHP Warning:  Undefined array key "feedback" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 5
+[01-Feb-2024 00:40:20 UTC] PHP Warning:  Undefined array key "email" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 6
+[05-Feb-2024 16:10:41 UTC] PHP Warning:  Undefined array key "name" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 4
+[05-Feb-2024 16:10:41 UTC] PHP Warning:  Undefined array key "feedback" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 5
+[05-Feb-2024 16:10:41 UTC] PHP Warning:  Undefined array key "email" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 6
+[12-Feb-2024 07:54:02 UTC] PHP Warning:  Undefined array key "email" in /home/nmscompe/public_html/subscription/sub.php on line 4
+[12-Feb-2024 20:53:17 UTC] PHP Warning:  Undefined array key "name" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 4
+[12-Feb-2024 20:53:17 UTC] PHP Warning:  Undefined array key "feedback" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 5
+[12-Feb-2024 20:53:17 UTC] PHP Warning:  Undefined array key "email" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 6
+[26-Feb-2024 19:55:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's increasing our knowledge ',0)' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[26-Feb-2024 19:55:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's increasing our knowledge ',0)' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[29-Feb-2024 22:14:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Sorry invalid ' on my ratings and I don't understand why , it's like that.
+I...' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[29-Feb-2024 22:14:09 UTC] PHP Warning:  Undefined array key "name" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 4
+[29-Feb-2024 22:14:09 UTC] PHP Warning:  Undefined array key "feedback" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 5
+[29-Feb-2024 22:14:09 UTC] PHP Warning:  Undefined array key "email" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 6
+[29-Feb-2024 22:15:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Sorry invalid ' on my ratings and I don't understand why , it's like that.
+I...' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[29-Feb-2024 22:51:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't understand why it's like that.',0)' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[29-Feb-2024 22:59:36 UTC] PHP Parse error:  syntax error, unexpected identifier "fa", expecting "," or ";" in /home/nmscompe/public_html/lib/candclass.PHP on line 337
+[29-Feb-2024 22:59:43 UTC] PHP Parse error:  syntax error, unexpected identifier "fa", expecting "," or ";" in /home/nmscompe/public_html/lib/candclass.PHP on line 337
+[07-Mar-2024 13:43:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't save my login details, have been trying to recover it but they don't send m...' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[07-Mar-2024 13:43:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't save my login details, have been trying to recover it but they don't send m...' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[15-Mar-2024 17:34:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't have any problems ',0)' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[18-Mar-2024 16:18:17 UTC] PHP Warning:  Undefined array key "email" in /home/nmscompe/public_html/subscription/sub.php on line 4
+[18-Mar-2024 16:21:04 UTC] PHP Warning:  Undefined array key "reference" in /home/nmscompe/public_html/subscription/callback.php on line 10
+[18-Mar-2024 16:21:04 UTC] PHP Warning:  Undefined array key "email" in /home/nmscompe/public_html/subscription/callback.php on line 11
+[18-Mar-2024 16:21:04 UTC] PHP Warning:  Undefined array key "amount" in /home/nmscompe/public_html/subscription/callback.php on line 12
+[18-Mar-2024 16:21:04 UTC] PHP Warning:  Undefined array key "plan" in /home/nmscompe/public_html/subscription/callback.php on line 14
+[18-Mar-2024 16:21:04 UTC] PHP Warning:  Undefined array key "expire" in /home/nmscompe/public_html/subscription/callback.php on line 15
+[18-Mar-2024 16:21:04 UTC] PHP Warning:  Undefined array key "date" in /home/nmscompe/public_html/subscription/callback.php on line 16
+[18-Mar-2024 16:21:04 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nmscompe/public_html/Mail/phpmailer/class.phpmailer.php on line 873
+[21-Mar-2024 18:16:42 UTC] PHP Warning:  Undefined array key "email" in /home/nmscompe/public_html/subscription/sub.php on line 4
+[21-Mar-2024 18:18:26 UTC] PHP Warning:  Undefined array key "email" in /home/nmscompe/public_html/subscription/sub.php on line 4
+[21-Mar-2024 18:19:54 UTC] PHP Warning:  Undefined array key "reference" in /home/nmscompe/public_html/subscription/callback.php on line 10
+[21-Mar-2024 18:19:54 UTC] PHP Warning:  Undefined array key "email" in /home/nmscompe/public_html/subscription/callback.php on line 11
+[21-Mar-2024 18:19:54 UTC] PHP Warning:  Undefined array key "amount" in /home/nmscompe/public_html/subscription/callback.php on line 12
+[21-Mar-2024 18:19:54 UTC] PHP Warning:  Undefined array key "plan" in /home/nmscompe/public_html/subscription/callback.php on line 14
+[21-Mar-2024 18:19:54 UTC] PHP Warning:  Undefined array key "expire" in /home/nmscompe/public_html/subscription/callback.php on line 15
+[21-Mar-2024 18:19:54 UTC] PHP Warning:  Undefined array key "date" in /home/nmscompe/public_html/subscription/callback.php on line 16
+[21-Mar-2024 18:19:54 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nmscompe/public_html/Mail/phpmailer/class.phpmailer.php on line 873
+[24-Mar-2024 12:48:37 UTC] PHP Warning:  Undefined array key "email" in /home/nmscompe/public_html/subscription/sub.php on line 4
+[01-Apr-2024 22:21:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't access the past questions papers
+',0)' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[01-Apr-2024 22:21:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't access the past questions papers
+',0)' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[01-Apr-2024 22:21:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't access the past questions papers
+',0)' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[10-Apr-2024 16:47:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't been able to access it.... why? ',0)' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[10-Apr-2024 16:47:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't been able to access it.... why? ',0)' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[10-Apr-2024 16:48:16 UTC] PHP Warning:  Undefined array key "name" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 4
+[10-Apr-2024 16:48:16 UTC] PHP Warning:  Undefined array key "feedback" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 5
+[10-Apr-2024 16:48:16 UTC] PHP Warning:  Undefined array key "email" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 6
+[16-Apr-2024 11:47:27 UTC] PHP Warning:  Undefined array key "email" in /home/nmscompe/public_html/subscription/sub.php on line 4
+[25-Apr-2024 07:26:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't login to the questions.',0)' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[25-Apr-2024 07:26:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't login to the questions.',0)' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[25-Apr-2024 07:27:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't login to the questions.',0)' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[25-Apr-2024 07:27:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't login to the questions.',0)' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[25-Apr-2024 07:28:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't login.',0)' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[26-Apr-2024 18:21:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'm not getting access to the past questions I paid for online ',0)' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[27-Apr-2024 05:49:43 UTC] PHP Warning:  Undefined array key "name" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 4
+[27-Apr-2024 05:49:43 UTC] PHP Warning:  Undefined array key "feedback" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 5
+[27-Apr-2024 05:49:43 UTC] PHP Warning:  Undefined array key "email" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 6
+[29-Apr-2024 15:16:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't seen anything on the portal. It keeps taking me back to the subscription pa...' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[04-May-2024 11:19:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't access the questions ' when I log in and try to study itisnot openings',0)' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[08-May-2024 07:02:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 've already paid the subscription fees
+',0)' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[10-May-2024 14:49:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't have access to it ',0)' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[10-May-2024 14:49:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't have access to it ',0)' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[10-May-2024 14:50:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't have access to it ',0)' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[10-May-2024 14:50:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't have access to it ',0)' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[10-May-2024 14:50:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't have access to it ',0)' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[12-May-2024 22:06:59 UTC] PHP Warning:  Undefined array key "name" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 4
+[12-May-2024 22:06:59 UTC] PHP Warning:  Undefined array key "feedback" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 5
+[12-May-2024 22:06:59 UTC] PHP Warning:  Undefined array key "email" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 6
+[27-May-2024 08:22:42 UTC] PHP Warning:  Undefined array key "name" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 4
+[27-May-2024 08:22:42 UTC] PHP Warning:  Undefined array key "feedback" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 5
+[27-May-2024 08:22:42 UTC] PHP Warning:  Undefined array key "email" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 6
+[28-May-2024 06:55:42 UTC] PHP Warning:  Undefined array key "name" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 4
+[28-May-2024 06:55:42 UTC] PHP Warning:  Undefined array key "feedback" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 5
+[28-May-2024 06:55:42 UTC] PHP Warning:  Undefined array key "email" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 6
+[01-Jun-2024 13:41:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't seen my results and it is more than two weeks now ',0)' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[01-Jun-2024 13:41:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't seen my results and it is more than two weeks now ',0)' at line 1 in /home/nmscompe/public_html/feedback/submit_feedback.php:10
+Stack trace:
+#0 /home/nmscompe/public_html/feedback/submit_feedback.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/feedback/submit_feedback.php on line 10
+[04-Jun-2024 12:41:35 UTC] PHP Warning:  Undefined array key "name" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 4
+[04-Jun-2024 12:41:35 UTC] PHP Warning:  Undefined array key "feedback" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 5
+[04-Jun-2024 12:41:35 UTC] PHP Warning:  Undefined array key "email" in /home/nmscompe/public_html/feedback/submit_feedback.php on line 6
+[11-Aug-2024 09:15:48 UTC] PHP Notice:  Undefined index: name in /home/nmscompe/public_html/feedback/submit_feedback.php on line 4
+[11-Aug-2024 09:15:48 UTC] PHP Notice:  Undefined index: feedback in /home/nmscompe/public_html/feedback/submit_feedback.php on line 5
+[11-Aug-2024 09:15:48 UTC] PHP Notice:  Undefined index: email in /home/nmscompe/public_html/feedback/submit_feedback.php on line 6
+[16-Aug-2024 04:09:54 UTC] PHP Notice:  Undefined index: name in /home/nmscompe/public_html/feedback/submit_feedback.php on line 4
+[16-Aug-2024 04:09:54 UTC] PHP Notice:  Undefined index: feedback in /home/nmscompe/public_html/feedback/submit_feedback.php on line 5
+[16-Aug-2024 04:09:54 UTC] PHP Notice:  Undefined index: email in /home/nmscompe/public_html/feedback/submit_feedback.php on line 6
+[18-Aug-2024 15:59:25 UTC] PHP Notice:  Undefined index: name in /home/nmscompe/public_html/feedback/submit_feedback.php on line 4
+[18-Aug-2024 15:59:25 UTC] PHP Notice:  Undefined index: feedback in /home/nmscompe/public_html/feedback/submit_feedback.php on line 5
+[18-Aug-2024 15:59:25 UTC] PHP Notice:  Undefined index: email in /home/nmscompe/public_html/feedback/submit_feedback.php on line 6
+[05-Sep-2024 21:41:14 UTC] PHP Notice:  Undefined index: name in /home/nmscompe/public_html/feedback/submit_feedback.php on line 4
+[05-Sep-2024 21:41:14 UTC] PHP Notice:  Undefined index: feedback in /home/nmscompe/public_html/feedback/submit_feedback.php on line 5
+[05-Sep-2024 21:41:14 UTC] PHP Notice:  Undefined index: email in /home/nmscompe/public_html/feedback/submit_feedback.php on line 6

@@ -1,0 +1,583 @@
+[08-Jan-2024 00:54:44 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[08-Jan-2024 00:55:49 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php:1848
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1848): implode()
+#1 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1572): MysqliDb->_buildInsertQuery()
+#2 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1533): MysqliDb->_buildQuery()
+#3 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(820): MysqliDb->_buildInsert()
+#4 /home/nmscompe/public_html/adminpanel/add_admin.php(32): MysqliDb->insert()
+#5 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php on line 1848
+[08-Jan-2024 01:00:38 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php:1848
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1848): implode()
+#1 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1572): MysqliDb->_buildInsertQuery()
+#2 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1533): MysqliDb->_buildQuery()
+#3 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(820): MysqliDb->_buildInsert()
+#4 /home/nmscompe/public_html/adminpanel/add_admin.php(32): MysqliDb->insert()
+#5 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php on line 1848
+[08-Jan-2024 01:02:31 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php:1848
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1848): implode()
+#1 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1572): MysqliDb->_buildInsertQuery()
+#2 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1533): MysqliDb->_buildQuery()
+#3 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(820): MysqliDb->_buildInsert()
+#4 /home/nmscompe/public_html/adminpanel/add_admin.php(32): MysqliDb->insert()
+#5 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php on line 1848
+[08-Jan-2024 01:02:42 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php:1848
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1848): implode()
+#1 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1572): MysqliDb->_buildInsertQuery()
+#2 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1533): MysqliDb->_buildQuery()
+#3 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(820): MysqliDb->_buildInsert()
+#4 /home/nmscompe/public_html/adminpanel/add_admin.php(32): MysqliDb->insert()
+#5 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php on line 1848
+[08-Jan-2024 01:03:52 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php:1848
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1848): implode()
+#1 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1572): MysqliDb->_buildInsertQuery()
+#2 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1533): MysqliDb->_buildQuery()
+#3 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(820): MysqliDb->_buildInsert()
+#4 /home/nmscompe/public_html/adminpanel/add_admin.php(32): MysqliDb->insert()
+#5 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php on line 1848
+[08-Jan-2024 03:15:41 UTC] PHP Warning:  Undefined variable $customer in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 53
+[08-Jan-2024 03:15:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 53
+[08-Jan-2024 03:18:39 UTC] PHP Warning:  Undefined variable $customer in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 53
+[08-Jan-2024 03:18:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 53
+[11-Jan-2024 08:04:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 4
+[11-Jan-2024 08:04:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 10
+[11-Jan-2024 08:04:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 13
+[11-Jan-2024 08:04:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 23
+[11-Jan-2024 08:04:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 26
+[11-Jan-2024 08:04:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 53
+[11-Jan-2024 08:04:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 57
+[11-Jan-2024 08:04:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 57
+[11-Jan-2024 08:04:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 57
+[11-Jan-2024 08:04:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 57
+[11-Jan-2024 08:04:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 70
+[11-Jan-2024 08:04:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 75
+[11-Jan-2024 08:04:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 83
+[12-Jan-2024 00:29:40 UTC] PHP Warning:  Undefined variable $customer in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 53
+[12-Jan-2024 00:29:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 53
+[12-Jan-2024 00:34:06 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/nmscompe/public_html/adminpanel/edit_admin.php on line 8
+[20-Jan-2024 17:34:31 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[20-Jan-2024 17:36:21 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[20-Jan-2024 17:37:31 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[20-Jan-2024 18:05:45 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[21-Jan-2024 16:25:53 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[21-Jan-2024 16:49:34 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[21-Jan-2024 18:39:22 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[21-Jan-2024 18:42:33 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[21-Jan-2024 19:12:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'where clause' in /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php:1988
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1988): mysqli->prepare()
+#1 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1594): MysqliDb->_prepareQuery()
+#2 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(947): MysqliDb->_buildQuery()
+#3 /home/nmscompe/public_html/adminpanel/delete_questions.php(20): MysqliDb->delete()
+#4 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php on line 1988
+[21-Jan-2024 19:17:15 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[21-Jan-2024 19:21:34 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[21-Jan-2024 19:24:24 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[21-Jan-2024 19:26:05 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[21-Jan-2024 19:28:32 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[21-Jan-2024 19:30:04 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[21-Jan-2024 19:46:13 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[21-Jan-2024 19:59:18 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[21-Jan-2024 20:02:44 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[21-Jan-2024 20:09:36 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[21-Jan-2024 20:12:44 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[21-Jan-2024 20:16:47 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[21-Jan-2024 20:18:37 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[21-Jan-2024 20:22:47 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[21-Jan-2024 20:26:22 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[21-Jan-2024 20:29:20 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[21-Jan-2024 20:34:54 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[21-Jan-2024 22:30:59 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[21-Jan-2024 22:32:49 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[21-Jan-2024 22:35:32 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[21-Jan-2024 22:37:03 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 06:51:41 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 07:08:36 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 07:11:16 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 07:13:18 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 07:16:02 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 07:16:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'd) Children' , '4')' at line 1 in /home/nmscompe/public_html/adminpanel/add_questions.php:23
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/add_questions.php(23): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/add_questions.php on line 23
+[22-Jan-2024 07:16:19 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 07:16:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'd) Children' , '4')' at line 1 in /home/nmscompe/public_html/adminpanel/add_questions.php:23
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/add_questions.php(23): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/add_questions.php on line 23
+[22-Jan-2024 07:16:54 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 07:16:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'd) Children' , '4')' at line 1 in /home/nmscompe/public_html/adminpanel/add_questions.php:23
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/add_questions.php(23): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/add_questions.php on line 23
+[22-Jan-2024 07:20:10 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 07:20:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'd) Children' , '4')' at line 1 in /home/nmscompe/public_html/adminpanel/add_questions.php:23
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/add_questions.php(23): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/add_questions.php on line 23
+[22-Jan-2024 07:20:20 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 07:20:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'd) Children' , '4')' at line 1 in /home/nmscompe/public_html/adminpanel/add_questions.php:23
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/add_questions.php(23): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/add_questions.php on line 23
+[22-Jan-2024 07:49:39 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 07:49:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'd) Children' , '4')' at line 1 in /home/nmscompe/public_html/adminpanel/add_questions.php:23
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/add_questions.php(23): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/add_questions.php on line 23
+[22-Jan-2024 09:29:04 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 09:32:41 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 09:37:43 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 10:32:45 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 10:37:06 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 14:12:34 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 14:12:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'd) Children' , '4')' at line 1 in /home/nmscompe/public_html/adminpanel/add_questions.php:23
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/add_questions.php(23): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/add_questions.php on line 23
+[22-Jan-2024 14:14:40 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 14:50:46 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 15:00:26 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 15:02:17 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 22:27:37 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 22:31:13 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 22:33:43 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 22:39:39 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 22:42:54 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 22:45:22 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 22:47:32 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 22:50:40 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 22:52:12 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 22:52:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's toy is missing.', 'c) The cats' toy is missing.', 'd) The cat toy's missing...' at line 1 in /home/nmscompe/public_html/adminpanel/add_questions.php:23
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/add_questions.php(23): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/add_questions.php on line 23
+[22-Jan-2024 22:52:25 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[22-Jan-2024 22:52:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's toy is missing.', 'c) The cats' toy is missing.', 'd) The cat toy's missing...' at line 1 in /home/nmscompe/public_html/adminpanel/add_questions.php:23
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/add_questions.php(23): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/add_questions.php on line 23
+[22-Jan-2024 22:55:49 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[24-Jan-2024 02:11:42 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[24-Jan-2024 02:12:40 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[24-Jan-2024 02:13:40 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[24-Jan-2024 02:14:31 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[24-Jan-2024 02:15:08 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[24-Jan-2024 02:15:43 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[24-Jan-2024 02:16:30 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[24-Jan-2024 02:17:12 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[24-Jan-2024 02:17:50 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[24-Jan-2024 02:23:02 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[24-Jan-2024 02:29:20 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[24-Jan-2024 03:02:58 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 12
+[24-Jan-2024 03:21:35 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[24-Jan-2024 03:23:44 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[24-Jan-2024 03:24:29 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[24-Jan-2024 03:25:52 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[24-Jan-2024 03:26:40 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[24-Jan-2024 03:27:19 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[24-Jan-2024 03:28:01 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[24-Jan-2024 03:28:43 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[24-Jan-2024 03:29:22 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[24-Jan-2024 03:30:07 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[24-Jan-2024 03:30:36 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[24-Jan-2024 03:31:39 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[24-Jan-2024 03:32:19 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[24-Jan-2024 03:33:09 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[25-Jan-2024 13:55:04 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[25-Jan-2024 13:57:20 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[25-Jan-2024 13:59:30 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[25-Jan-2024 14:48:01 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[25-Jan-2024 14:51:18 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[25-Jan-2024 14:55:32 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[25-Jan-2024 14:55:53 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[25-Jan-2024 15:02:36 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[25-Jan-2024 15:12:19 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[25-Jan-2024 15:18:39 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[25-Jan-2024 15:18:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's bone is buried in the backyard.', 'The dogs' bone is buried in the backyard...' at line 1 in /home/nmscompe/public_html/adminpanel/add_questions.php:24
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/add_questions.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/add_questions.php on line 24
+[25-Jan-2024 15:20:35 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[25-Jan-2024 15:22:15 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 17:02:03 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 17:03:57 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 17:05:24 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 17:07:15 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 17:11:29 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 17:12:48 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 17:14:43 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 17:16:22 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 17:16:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '3')' at line 1 in /home/nmscompe/public_html/adminpanel/add_questions.php:24
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/add_questions.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/add_questions.php on line 24
+[27-Jan-2024 17:18:29 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 17:25:51 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 17:27:01 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 17:27:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 're', 'Thier' , '2')' at line 1 in /home/nmscompe/public_html/adminpanel/add_questions.php:24
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/add_questions.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/add_questions.php on line 24
+[27-Jan-2024 17:27:10 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 17:27:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 're', 'Thier' , '2')' at line 1 in /home/nmscompe/public_html/adminpanel/add_questions.php:24
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/add_questions.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/add_questions.php on line 24
+[27-Jan-2024 17:28:56 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 19:29:22 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 19:33:01 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 19:43:26 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 19:46:21 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 19:47:57 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 19:49:29 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 19:49:44 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 19:51:41 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 19:54:28 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 19:55:51 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 19:57:40 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 19:58:54 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 19:59:44 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 20:00:41 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 20:02:00 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 20:03:26 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 20:05:23 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 20:05:33 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 20:07:29 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 20:08:18 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 20:08:42 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 20:10:03 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 20:11:41 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 20:11:51 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 20:15:17 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 20:16:51 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[27-Jan-2024 23:14:58 UTC] PHP Warning:  Undefined variable $customer in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 53
+[27-Jan-2024 23:14:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 53
+[29-Jan-2024 14:14:31 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[29-Jan-2024 14:19:55 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[29-Jan-2024 14:21:28 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[29-Jan-2024 14:23:52 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[29-Jan-2024 14:24:58 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[29-Jan-2024 14:26:22 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[29-Jan-2024 14:27:42 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[29-Jan-2024 14:30:01 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[29-Jan-2024 14:30:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Children' , '4')' at line 1 in /home/nmscompe/public_html/adminpanel/add_questions.php:24
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/add_questions.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/add_questions.php on line 24
+[29-Jan-2024 14:31:32 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[29-Jan-2024 14:33:01 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[29-Jan-2024 14:36:28 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[29-Jan-2024 14:37:38 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[03-Feb-2024 14:54:14 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[03-Feb-2024 15:03:47 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[03-Feb-2024 15:09:05 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[03-Feb-2024 15:12:18 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[03-Feb-2024 15:19:37 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[03-Feb-2024 15:19:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's denote the number as "x." If two-thirds of x is 60, then (2/3) * x = 60.  T...' at line 1 in /home/nmscompe/public_html/adminpanel/add_questions.php:24
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/add_questions.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/add_questions.php on line 24
+[03-Feb-2024 15:20:57 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[03-Feb-2024 15:20:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's denote the number as \"x\". If two-thirds of x is 60, then (2/3) * x = 60. ...' at line 1 in /home/nmscompe/public_html/adminpanel/add_questions.php:24
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/add_questions.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/add_questions.php on line 24
+[03-Feb-2024 15:21:09 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[03-Feb-2024 15:21:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's denote the number as x. If two-thirds of x is 60, then (2/3) * x = 60.  To ...' at line 1 in /home/nmscompe/public_html/adminpanel/add_questions.php:24
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/add_questions.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/add_questions.php on line 24
+[03-Feb-2024 15:22:35 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[03-Feb-2024 15:22:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's denote the number as x. If two-thirds of x is 60, then (2/3) * x = 60.  To ...' at line 1 in /home/nmscompe/public_html/adminpanel/add_questions.php:24
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/add_questions.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/add_questions.php on line 24
+[03-Feb-2024 15:22:54 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[03-Feb-2024 15:22:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's denote the number as x. If two-thirds of x is 60, then (2/3)  x = 60.  To f...' at line 1 in /home/nmscompe/public_html/adminpanel/add_questions.php:24
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/add_questions.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/add_questions.php on line 24
+[03-Feb-2024 15:23:29 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[03-Feb-2024 15:26:27 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[03-Feb-2024 15:29:31 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[03-Feb-2024 15:32:04 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[03-Feb-2024 15:41:59 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[03-Feb-2024 15:46:53 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[03-Feb-2024 15:54:02 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[03-Feb-2024 16:03:21 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[03-Feb-2024 16:06:53 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 00:40:47 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 01:03:08 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 01:06:31 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 01:21:43 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 01:24:36 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 01:25:59 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 03:23:23 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 03:24:53 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 03:27:47 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 03:29:15 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 03:31:16 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 03:32:59 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 03:36:00 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 03:38:28 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 03:40:06 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 03:41:35 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 03:44:07 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 03:46:18 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 03:57:56 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 03:59:57 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:02:21 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:03:51 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:05:35 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:07:00 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:08:48 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:11:25 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:13:19 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:14:49 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:15:53 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:17:11 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:18:27 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:19:50 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:20:45 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:21:55 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:22:39 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:23:37 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:25:25 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:26:58 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:27:52 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:29:29 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:30:40 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:31:45 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:33:48 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:34:54 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:35:48 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:35:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't like' , '', 'english', '2018','', 'And ', 'But', 'Or', 'So' , '2')' at line 1 in /home/nmscompe/public_html/adminpanel/add_questions.php:24
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/add_questions.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/add_questions.php on line 24
+[04-Feb-2024 04:39:21 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:43:35 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:45:58 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:47:39 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:48:31 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:49:59 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:50:51 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:52:57 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:54:43 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:55:52 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[04-Feb-2024 04:57:34 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[06-Feb-2024 14:39:32 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[06-Feb-2024 15:37:02 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[06-Feb-2024 17:13:21 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[06-Feb-2024 17:15:18 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[06-Feb-2024 17:17:16 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[06-Feb-2024 17:19:32 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[06-Feb-2024 17:20:49 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[06-Feb-2024 17:24:15 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[06-Feb-2024 17:26:33 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[06-Feb-2024 17:28:22 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[06-Feb-2024 17:32:05 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[06-Feb-2024 17:33:48 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[06-Feb-2024 17:35:44 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[06-Feb-2024 17:40:37 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[06-Feb-2024 17:42:50 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[06-Feb-2024 17:44:41 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[06-Feb-2024 17:47:34 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[06-Feb-2024 17:50:17 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[06-Feb-2024 17:52:22 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[06-Feb-2024 17:58:38 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[06-Feb-2024 18:00:33 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[06-Feb-2024 23:44:27 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[06-Feb-2024 23:58:30 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 01:50:44 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 01:52:52 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 01:54:28 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 01:56:49 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 01:59:37 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 02:01:23 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 02:03:58 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 10:46:37 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 10:50:10 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 10:51:20 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:01:24 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:03:09 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:05:37 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:07:50 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:09:05 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:10:21 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:12:20 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:13:38 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:15:04 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:16:31 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:17:50 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:19:04 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:22:02 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:26:13 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:27:43 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:29:21 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:30:08 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:31:29 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:32:46 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:33:39 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:34:29 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:35:25 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:36:16 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:37:00 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:37:54 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:38:53 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:39:47 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:40:48 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:44:09 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:45:07 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[07-Feb-2024 11:46:12 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[08-Feb-2024 19:45:43 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[08-Feb-2024 19:47:59 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[08-Feb-2024 19:51:19 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[08-Feb-2024 19:53:15 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[08-Feb-2024 19:57:45 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[08-Feb-2024 20:32:17 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[08-Feb-2024 20:35:44 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[08-Feb-2024 20:40:43 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[10-Feb-2024 12:45:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'fullname' in 'where clause' in /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php:1988
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1988): mysqli->prepare()
+#1 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1594): MysqliDb->_prepareQuery()
+#2 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(738): MysqliDb->_buildQuery()
+#3 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(2403): MysqliDb->get()
+#4 /home/nmscompe/public_html/adminpanel/subscribed.php(52): MysqliDb->paginate()
+#5 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php on line 1988
+[12-Feb-2024 23:15:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'nmscompe_candidates.feedbacks' doesn't exist in /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php:1988
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1988): mysqli->prepare()
+#1 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1594): MysqliDb->_prepareQuery()
+#2 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(738): MysqliDb->_buildQuery()
+#3 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(2403): MysqliDb->get()
+#4 /home/nmscompe/public_html/adminpanel/feedbacks.php(52): MysqliDb->paginate()
+#5 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php on line 1988
+[12-Feb-2024 23:17:31 UTC] PHP Warning:  Undefined variable $questions in /home/nmscompe/public_html/adminpanel/feedbacks.php on line 79
+[12-Feb-2024 23:17:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setOrderingValues() on null in /home/nmscompe/public_html/adminpanel/feedbacks.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/feedbacks.php on line 79
+[12-Feb-2024 23:17:33 UTC] PHP Warning:  Undefined variable $questions in /home/nmscompe/public_html/adminpanel/feedbacks.php on line 79
+[12-Feb-2024 23:17:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setOrderingValues() on null in /home/nmscompe/public_html/adminpanel/feedbacks.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/feedbacks.php on line 79
+[12-Feb-2024 23:17:39 UTC] PHP Warning:  Undefined variable $questions in /home/nmscompe/public_html/adminpanel/feedbacks.php on line 79
+[12-Feb-2024 23:17:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setOrderingValues() on null in /home/nmscompe/public_html/adminpanel/feedbacks.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/feedbacks.php on line 79
+[12-Feb-2024 23:19:01 UTC] PHP Warning:  Undefined variable $questions in /home/nmscompe/public_html/adminpanel/feedbacks.php on line 79
+[12-Feb-2024 23:19:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setOrderingValues() on null in /home/nmscompe/public_html/adminpanel/feedbacks.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/feedbacks.php on line 79
+[12-Feb-2024 23:19:04 UTC] PHP Warning:  Undefined variable $questions in /home/nmscompe/public_html/adminpanel/feedbacks.php on line 79
+[12-Feb-2024 23:19:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setOrderingValues() on null in /home/nmscompe/public_html/adminpanel/feedbacks.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/feedbacks.php on line 79
+[12-Feb-2024 23:19:16 UTC] PHP Warning:  Undefined variable $questions in /home/nmscompe/public_html/adminpanel/feedbacks.php on line 79
+[12-Feb-2024 23:19:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setOrderingValues() on null in /home/nmscompe/public_html/adminpanel/feedbacks.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/feedbacks.php on line 79
+[12-Feb-2024 23:19:37 UTC] PHP Warning:  Undefined variable $questions in /home/nmscompe/public_html/adminpanel/feedbacks.php on line 79
+[12-Feb-2024 23:19:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setOrderingValues() on null in /home/nmscompe/public_html/adminpanel/feedbacks.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/feedbacks.php on line 79
+[13-Feb-2024 17:38:39 UTC] PHP Warning:  Undefined array key "question_image" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[14-Feb-2024 17:33:17 UTC] PHP Warning:  Undefined variable $customer in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 53
+[14-Feb-2024 17:33:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 53
+[17-Feb-2024 22:16:03 UTC] PHP Warning:  Undefined array key "temp_name" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[17-Feb-2024 22:16:03 UTC] PHP Deprecated:  move_uploaded_file(): Passing null to parameter #1 ($from) of type string is deprecated in /home/nmscompe/public_html/adminpanel/add_questions.php on line 19
+[17-Feb-2024 22:16:03 UTC] PHP Warning:  Undefined variable $image in /home/nmscompe/public_html/adminpanel/add_questions.php on line 36
+[17-Feb-2024 22:18:11 UTC] PHP Warning:  Undefined array key "temp_name" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 13
+[17-Feb-2024 22:18:11 UTC] PHP Deprecated:  move_uploaded_file(): Passing null to parameter #1 ($from) of type string is deprecated in /home/nmscompe/public_html/adminpanel/add_questions.php on line 19
+[17-Feb-2024 22:18:11 UTC] PHP Warning:  Undefined variable $image in /home/nmscompe/public_html/adminpanel/add_questions.php on line 36
+[17-Feb-2024 22:19:47 UTC] PHP Parse error:  syntax error, unexpected token ",", expecting ")" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 24
+[17-Feb-2024 22:36:19 UTC] PHP Warning:  Undefined array key "temp_name" in /home/nmscompe/public_html/adminpanel/add_questions.php on line 14
+[17-Feb-2024 22:36:19 UTC] PHP Deprecated:  move_uploaded_file(): Passing null to parameter #1 ($from) of type string is deprecated in /home/nmscompe/public_html/adminpanel/add_questions.php on line 20
+[17-Feb-2024 22:38:25 UTC] PHP Warning:  move_uploaded_file(/assets/qimages/65d135619ed52_OIP.jpeg): Failed to open stream: No such file or directory in /home/nmscompe/public_html/adminpanel/add_questions.php on line 20
+[17-Feb-2024 22:38:25 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php9YbmzH' to '/assets/qimages/65d135619ed52_OIP.jpeg' in /home/nmscompe/public_html/adminpanel/add_questions.php on line 20
+[18-Feb-2024 08:57:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'nmscompe_candidates.registerd_candidatesa4WWER1' doesn't exist in /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php:1988
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1988): mysqli->prepare()
+#1 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1594): MysqliDb->_prepareQuery()
+#2 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(738): MysqliDb->_buildQuery()
+#3 /home/nmscompe/public_html/adminpanel/export_customers.php(28): MysqliDb->get()
+#4 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php on line 1988
+[18-Feb-2024 09:00:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'nmscompe_candidates.registerd_candidatesa4WWER1' doesn't exist in /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php:1988
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1988): mysqli->prepare()
+#1 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1594): MysqliDb->_prepareQuery()
+#2 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(738): MysqliDb->_buildQuery()
+#3 /home/nmscompe/public_html/adminpanel/export_customers.php(28): MysqliDb->get()
+#4 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php on line 1988
+[22-Feb-2024 09:30:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'nmscompe_candidates.registerd_candidatesa4WWER1' doesn't exist in /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php:1988
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1988): mysqli->prepare()
+#1 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1594): MysqliDb->_prepareQuery()
+#2 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(738): MysqliDb->_buildQuery()
+#3 /home/nmscompe/public_html/adminpanel/export_customers.php(28): MysqliDb->get()
+#4 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php on line 1988
+[22-Feb-2024 09:37:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'nmscompe_candidates.registerd_candidatesa4WWER1' doesn't exist in /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php:1988
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1988): mysqli->prepare()
+#1 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1594): MysqliDb->_prepareQuery()
+#2 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(738): MysqliDb->_buildQuery()
+#3 /home/nmscompe/public_html/adminpanel/export_customers.php(28): MysqliDb->get()
+#4 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php on line 1988
+[08-May-2024 11:00:52 UTC] PHP Warning:  Undefined variable $customer in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 53
+[08-May-2024 11:00:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 53
+[08-May-2024 22:02:48 UTC] PHP Warning:  Undefined variable $customer in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 53
+[08-May-2024 22:02:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 53
+[21-Jul-2024 09:46:04 UTC] PHP Fatal error:  Uncaught Exception: Table 'nmscompe_candidates.registerd_candidatesa4WWER1' doesn't exist query: SELECT  id, fullname, email, mobile, subscribed, subscription_type, reg_date FROM registerd_candidatesa4WWER1 LIMIT 0, 100 in /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php:2006
+Stack trace:
+#0 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(1594): MysqliDb->_prepareQuery()
+#1 /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php(738): MysqliDb->_buildQuery(Array)
+#2 /home/nmscompe/public_html/adminpanel/export_customers.php(28): MysqliDb->get('registerd_candi...', Array, Array)
+#3 {main}
+  thrown in /home/nmscompe/public_html/adminpanel/lib/MysqliDb/MysqliDb.php on line 2006
+[21-Jul-2024 09:46:32 UTC] PHP Notice:  Undefined variable: customer in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 53
+[21-Jul-2024 09:46:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/nmscompe/public_html/adminpanel/forms/customer_form.php on line 53

@@ -1,0 +1,4 @@
+[08-Jan-2024 00:06:28 UTC] PHP Warning:  include(../../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/practice/study/index.php on line 3
+[08-Jan-2024 00:06:28 UTC] PHP Warning:  include(): Failed opening '../../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/practice/study/index.php on line 3
+[08-Jan-2024 00:18:15 UTC] PHP Warning:  include(../../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/practice/study/index.php on line 3
+[08-Jan-2024 00:18:15 UTC] PHP Warning:  include(): Failed opening '../../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/practice/study/index.php on line 3

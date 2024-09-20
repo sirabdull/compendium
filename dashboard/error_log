@@ -1,0 +1,120 @@
+[07-Jan-2024 23:50:29 UTC] PHP Warning:  require(../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/profile.php on line 5
+[07-Jan-2024 23:50:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../lib/candclass.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/profile.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/profile.php on line 5
+[07-Jan-2024 23:50:31 UTC] PHP Warning:  include(../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[07-Jan-2024 23:50:31 UTC] PHP Warning:  include(): Failed opening '../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[07-Jan-2024 23:50:35 UTC] PHP Warning:  require(../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/profile.php on line 5
+[07-Jan-2024 23:50:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../lib/candclass.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/profile.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/profile.php on line 5
+[07-Jan-2024 23:54:07 UTC] PHP Warning:  require(../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/profile.php on line 5
+[07-Jan-2024 23:54:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../lib/candclass.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/profile.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/profile.php on line 5
+[07-Jan-2024 23:56:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/nmscompe/public_html/lib/candclass.PHP:57
+Stack trace:
+#0 /home/nmscompe/public_html/lib/candclass.PHP(57): mysqli_connect()
+#1 /home/nmscompe/public_html/lib/candclass.PHP(141): Candidates\Candidate->getDb()
+#2 /home/nmscompe/public_html/lib/candclass.PHP(165): Candidates\Candidate->getsub()
+#3 /home/nmscompe/public_html/dashboard/profile.php(151): Candidates\Candidate->display()
+#4 {main}
+  thrown in /home/nmscompe/public_html/lib/candclass.PHP on line 57
+[07-Jan-2024 23:57:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/nmscompe/public_html/lib/candclass.PHP:57
+Stack trace:
+#0 /home/nmscompe/public_html/lib/candclass.PHP(57): mysqli_connect()
+#1 /home/nmscompe/public_html/lib/candclass.PHP(141): Candidates\Candidate->getDb()
+#2 /home/nmscompe/public_html/lib/candclass.PHP(165): Candidates\Candidate->getsub()
+#3 /home/nmscompe/public_html/dashboard/profile.php(151): Candidates\Candidate->display()
+#4 {main}
+  thrown in /home/nmscompe/public_html/lib/candclass.PHP on line 57
+[07-Jan-2024 23:57:31 UTC] PHP Warning:  include(../../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[07-Jan-2024 23:57:31 UTC] PHP Warning:  include(): Failed opening '../../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[07-Jan-2024 23:57:33 UTC] PHP Warning:  include(../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/leaderboards.php on line 5
+[07-Jan-2024 23:57:33 UTC] PHP Warning:  include(): Failed opening '../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/leaderboards.php on line 5
+[07-Jan-2024 23:57:33 UTC] PHP Fatal error:  Uncaught Error: Class "Candidates\candidate" not found in /home/nmscompe/public_html/dashboard/leaderboards.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/leaderboards.php on line 6
+[07-Jan-2024 23:57:40 UTC] PHP Warning:  include(../../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[07-Jan-2024 23:57:40 UTC] PHP Warning:  include(): Failed opening '../../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[07-Jan-2024 23:57:54 UTC] PHP Warning:  include(../../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[07-Jan-2024 23:57:54 UTC] PHP Warning:  include(): Failed opening '../../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[07-Jan-2024 23:58:19 UTC] PHP Warning:  include(../../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[07-Jan-2024 23:58:19 UTC] PHP Warning:  include(): Failed opening '../../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[07-Jan-2024 23:58:27 UTC] PHP Warning:  include(../../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[07-Jan-2024 23:58:27 UTC] PHP Warning:  include(): Failed opening '../../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[07-Jan-2024 23:58:32 UTC] PHP Warning:  include(../../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[07-Jan-2024 23:58:32 UTC] PHP Warning:  include(): Failed opening '../../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[08-Jan-2024 00:05:35 UTC] PHP Warning:  include(../../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[08-Jan-2024 00:05:35 UTC] PHP Warning:  include(): Failed opening '../../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[08-Jan-2024 00:06:06 UTC] PHP Warning:  include(../../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[08-Jan-2024 00:06:06 UTC] PHP Warning:  include(): Failed opening '../../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[08-Jan-2024 00:06:13 UTC] PHP Warning:  include(../../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[08-Jan-2024 00:06:13 UTC] PHP Warning:  include(): Failed opening '../../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[08-Jan-2024 00:06:23 UTC] PHP Warning:  include(../../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[08-Jan-2024 00:06:23 UTC] PHP Warning:  include(): Failed opening '../../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[08-Jan-2024 00:06:32 UTC] PHP Warning:  include(../../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[08-Jan-2024 00:06:32 UTC] PHP Warning:  include(): Failed opening '../../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[08-Jan-2024 00:07:05 UTC] PHP Warning:  include(../../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[08-Jan-2024 00:07:05 UTC] PHP Warning:  include(): Failed opening '../../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[08-Jan-2024 00:07:31 UTC] PHP Warning:  include(../../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[08-Jan-2024 00:07:31 UTC] PHP Warning:  include(): Failed opening '../../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[08-Jan-2024 00:07:42 UTC] PHP Warning:  include(../../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[08-Jan-2024 00:07:42 UTC] PHP Warning:  include(): Failed opening '../../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[08-Jan-2024 00:07:43 UTC] PHP Warning:  include(../../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[08-Jan-2024 00:07:43 UTC] PHP Warning:  include(): Failed opening '../../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[08-Jan-2024 00:07:49 UTC] PHP Warning:  include(../../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[08-Jan-2024 00:07:49 UTC] PHP Warning:  include(): Failed opening '../../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[08-Jan-2024 00:09:39 UTC] PHP Warning:  include(../../lib/candclass.PHP): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[08-Jan-2024 00:09:39 UTC] PHP Warning:  include(): Failed opening '../../lib/candclass.PHP' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[08-Jan-2024 00:09:53 UTC] PHP Warning:  include(../../lib/candclass.PHP): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[08-Jan-2024 00:09:53 UTC] PHP Warning:  include(): Failed opening '../../lib/candclass.PHP' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[08-Jan-2024 00:10:00 UTC] PHP Warning:  include(../../lib/candclass.PHP): Failed to open stream: No such file or directory in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[08-Jan-2024 00:10:00 UTC] PHP Warning:  include(): Failed opening '../../lib/candclass.PHP' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/dashboard/includes/modals.php on line 5
+[10-Jan-2024 21:45:37 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, mysqli_result given in /home/nmscompe/public_html/dashboard/leaderboards.php:71
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/leaderboards.php on line 71
+[10-Jan-2024 21:46:22 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, mysqli_result given in /home/nmscompe/public_html/dashboard/leaderboards.php:71
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/leaderboards.php on line 71
+[10-Jan-2024 21:46:23 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, mysqli_result given in /home/nmscompe/public_html/dashboard/leaderboards.php:71
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/leaderboards.php on line 71
+[10-Jan-2024 21:46:26 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, mysqli_result given in /home/nmscompe/public_html/dashboard/leaderboards.php:71
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/leaderboards.php on line 71
+[10-Jan-2024 21:47:30 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, mysqli_result given in /home/nmscompe/public_html/dashboard/leaderboards.php:71
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/leaderboards.php on line 71
+[10-Jan-2024 21:50:26 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, mysqli_result given in /home/nmscompe/public_html/dashboard/leaderboards.php:71
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/leaderboards.php on line 71
+[10-Jan-2024 21:50:30 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, mysqli_result given in /home/nmscompe/public_html/dashboard/leaderboards.php:71
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/leaderboards.php on line 71
+[10-Jan-2024 21:51:31 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, mysqli_result given in /home/nmscompe/public_html/dashboard/leaderboards.php:71
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/leaderboards.php on line 71
+[10-Jan-2024 21:55:36 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, int given in /home/nmscompe/public_html/dashboard/leaderboards.php:71
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/dashboard/leaderboards.php on line 71
+[10-Jan-2024 21:56:34 UTC] PHP Parse error:  syntax error, unexpected token "return" in /home/nmscompe/public_html/lib/candclass.PHP on line 141
+[10-Jan-2024 21:57:05 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, array given in /home/nmscompe/public_html/lib/candclass.PHP:141
+Stack trace:
+#0 /home/nmscompe/public_html/lib/candclass.PHP(141): mysqli_num_rows()
+#1 /home/nmscompe/public_html/dashboard/leaderboards.php(71): Candidates\Candidate->getall()
+#2 {main}
+  thrown in /home/nmscompe/public_html/lib/candclass.PHP on line 141

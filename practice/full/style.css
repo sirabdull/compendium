@@ -1,0 +1,117 @@
+
+.cover{
+    margin-top:20px;
+    max-width: 1000px;
+ 
+    max-height:100000px;
+    border:2px ridge white;
+    border-radius:10px;
+    text-align:left;
+    font-family:sans-serif lucida ;
+    cursor: pointer;
+    position:relative;
+}
+.cover:hover{
+    background:white;
+    color:black;
+
+}
+
+    input{
+        color:red;
+        font-size:40px;
+        padding:5px;
+        margin-left:10px;
+        margin-right:10px;
+        border:1px ridge black;
+        margin-top:5px;
+        width: 20px;
+        height:20px;
+      
+        cursor: pointer;
+    }
+label{
+margin-left: 40px;
+}
+
+    
+body {font-family: Verdana, sans-serif; margin:0}
+
+
+/* The dots/bullets/indicators */
+.bt{
+width:18px;
+height:20;
+margin-left:20px;
+margin-top:50px;
+}
+.dot{
+margin-left:10px;
+margin-top:10px;
+}
+
+.active, .dot:hover {
+background-color: green;
+}
+
+/* Fading animation */
+.fade {
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 500px) {
+*{font-size: 15px}
+
+}
+.questions{
+padding-left:  20px;
+position:relative;
+margin-bottom:100px;
+}
+
+.container-fluid{
+height:100vh;
+}
+.column:hover{
+background-color:white;
+color:black;
+}
+.sub{
+position:relative;
+bottom:30px;
+margin-left:80px;
+float:left;
+}
+.menu{
+position:relative;
+top:5vh;
+right: 20px;
+float:end;
+}
+.answerd{
+background-color:yellow;
+}
+.subject{
+position:absolute;
+font-family:lucida, sans-serif  tahoma;
+z-index:1;
+color:white;
+font-size:20px;
+right:10px;
+top:0px;
+}
+.slides{
+display:inline-block;
+}
+.q-nav{
+color:white;
+margin-left:20px;
+margin-top:10px;
+}

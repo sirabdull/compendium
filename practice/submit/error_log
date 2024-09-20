@@ -1,0 +1,53 @@
+[08-Jan-2024 02:54:49 UTC] PHP Warning:  include(../../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/practice/submit/proccess.php on line 5
+[08-Jan-2024 02:54:49 UTC] PHP Warning:  include(): Failed opening '../../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/practice/submit/proccess.php on line 5
+[08-Jan-2024 02:54:49 UTC] PHP Fatal error:  Uncaught Error: Class "candidates\candidate" not found in /home/nmscompe/public_html/practice/submit/proccess.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/practice/submit/proccess.php on line 7
+[08-Jan-2024 02:54:51 UTC] PHP Warning:  include(../../lib/candclass.php): Failed to open stream: No such file or directory in /home/nmscompe/public_html/practice/submit/proccess.php on line 5
+[08-Jan-2024 02:54:51 UTC] PHP Warning:  include(): Failed opening '../../lib/candclass.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nmscompe/public_html/practice/submit/proccess.php on line 5
+[08-Jan-2024 02:54:51 UTC] PHP Fatal error:  Uncaught Error: Class "candidates\candidate" not found in /home/nmscompe/public_html/practice/submit/proccess.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmscompe/public_html/practice/submit/proccess.php on line 7
+[24-Feb-2024 21:52:50 UTC] PHP Parse error:  syntax error, unexpected token "." in /home/nmscompe/public_html/practice/submit/proccess.php on line 41
+[24-Feb-2024 22:15:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'submit' in 'where clause' in /home/nmscompe/public_html/practice/submit/proccess.php:15
+Stack trace:
+#0 /home/nmscompe/public_html/practice/submit/proccess.php(15): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/practice/submit/proccess.php on line 15
+[24-Feb-2024 22:16:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'submit' in 'where clause' in /home/nmscompe/public_html/practice/submit/proccess.php:15
+Stack trace:
+#0 /home/nmscompe/public_html/practice/submit/proccess.php(15): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/practice/submit/proccess.php on line 15
+[24-Feb-2024 22:19:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'submit' in 'where clause' in /home/nmscompe/public_html/practice/submit/proccess.php:15
+Stack trace:
+#0 /home/nmscompe/public_html/practice/submit/proccess.php(15): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/practice/submit/proccess.php on line 15
+[24-Feb-2024 22:19:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'submit' in 'where clause' in /home/nmscompe/public_html/practice/submit/proccess.php:15
+Stack trace:
+#0 /home/nmscompe/public_html/practice/submit/proccess.php(15): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/practice/submit/proccess.php on line 15
+[24-Feb-2024 22:19:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'submit' in 'where clause' in /home/nmscompe/public_html/practice/submit/proccess.php:15
+Stack trace:
+#0 /home/nmscompe/public_html/practice/submit/proccess.php(15): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/practice/submit/proccess.php on line 15
+[24-Feb-2024 22:22:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/nmscompe/public_html/practice/submit/proccess.php:14
+Stack trace:
+#0 /home/nmscompe/public_html/practice/submit/proccess.php(14): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/practice/submit/proccess.php on line 14
+[24-Feb-2024 22:22:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/nmscompe/public_html/practice/submit/proccess.php:14
+Stack trace:
+#0 /home/nmscompe/public_html/practice/submit/proccess.php(14): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/practice/submit/proccess.php on line 14
+[24-Feb-2024 22:23:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column '1' in 'where clause' in /home/nmscompe/public_html/practice/submit/proccess.php:14
+Stack trace:
+#0 /home/nmscompe/public_html/practice/submit/proccess.php(14): mysqli_query()
+#1 {main}
+  thrown in /home/nmscompe/public_html/practice/submit/proccess.php on line 14

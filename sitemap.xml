@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://www.nmscompendium.com.ng/auth/signup</loc>
+  </url>
+  <url>
+    <loc>http://www.nmscompendium.com.ng/auth/login</loc>
+  </url>
+  <url>
+    <loc>http://www.nmscompendium.com.ng</loc>
+  </url>
+   <url>
+    <loc>http://www.nmscompendium.com.ng/guide</loc>
+  </url>
+  <url>
+    <loc>http://www.nmscompendium.com.ng/dashboard</loc>
+  </url>
+  <!-- Other URLs -->
+</urlset>
