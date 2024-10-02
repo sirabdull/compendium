@@ -3,184 +3,173 @@ session_start();
 require '../config/config.php';
 $email = $_GET['email'];
 $_SESSION['email'] = $email;
-
 ?>
 
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Subscription</title>
     <link rel="icon" href="/nms-logo.webp" type="image/webp">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        .card{
-            width:15rem;
-            height: 
-                5rem;
-            
+        body {
+            background-color: #f0f0f0;
+            color: #333;
+            font-family: 'Poppins', sans-serif;
         }
-        img{
-            height: 20rem;
+        .header {
+            background-color: #163020;
+            color: white;
+            padding: 2rem 0;
+            margin-bottom: 3rem;
         }
-        .card-text{
-            text-align: left;
-            justify-content: left;
+        .card {
+            border: none;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            max-width: 300px;
+            margin: 0 auto;
         }
-        .aria{
-            width:15px;
-            color:white;
-            height:15px;
-            background:white;
-            border-radius:50%;
+        .card:hover {
+            transform: translateY(-10px);
         }
-        @media screen and (max-width:991px) {
-.prem{
-    position: absolute;
-    top: 200px;
-}
-            
+        .card-img-top {
+            height: 150px;
+            object-fit: cover;
         }
-        @media screen and (max-width:615px) {
-.ulti{
-   position: absolute;
-   top: 1100px;
-            
+        .card-body {
+            padding: 1.5rem;
         }
-.container{
-    text-align: center;
-    justify-content: center;
-}
-
-    }
-    input{
-        display: none;
-    }
+        .card-title {
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        .card-subtitle {
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        .card-text ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .card-text li {
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+        .btn-subscribe {
+            width: 100%;
+            padding: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            background-color: #163020;
+            border-color: #163020;
+        }
+        .btn-subscribe:hover {
+            background-color: #0f2015;
+            border-color: #0f2015;
+        }
+        .aria {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+        .logo {
+            width: 100px;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+        .motto {
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+        .transaction-tips {
+            background-color: #e9ecef;
+            padding: 1rem;
+            margin-top: 2rem;
+            border-radius: 5px;
+        }
     </style>
 </head>
-<body class="bg-dark">
-   
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
-   
-  <script src="https://js.paystack.co/v1/inline.js"></script>
+<body>
+    <header class="header text-center">
+        <img src="/nms-logo.webp" alt="NMS Logo" class="logo">
+        <h1>Choose Your Subscription Plan</h1>
+        <p>Unlock your potential with our comprehensive study resources</p>
+        <p class="motto">Discipline, Knowledge, and Patriotism</p>
+    </header>
 
-
-
-
-
-<div class="container-fluid">
-    <div class="row justify-content-center align-items-center text-white g-2">
-        <div class="col float-center">Dicsipline</div>
-        <div class="col">knowlewdge</div>
-        <div class="col">patroitism</div>
-    </div>
-</div>
-
-<div class="container-fluid p-5 bg-success">
-    <div class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|}">
-    
-    </div>
-    <div class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|}">
-       
-        <div class="col rounded   prem ">
-            <div class="card rounded ">
-              <img src="svg/rsm.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-success">premium plan</h5>
-                <h6 class="card-subtitle mb-2 text-success">Price : <img src="svg/aira.png" class='aria' alt="">  3000</h6>
-                <p class="card-text text-white"><ul class="text-white float-end">
-                    <li>
-                        <b>Three months access<i class="fa fa-universal-access" aria-hidden="true"></i></b>
-                    </li>
-                    <li>
-                  Access  upto 20 years past questions  <i class="fa fa-check text-success" aria-hidden="true"></i>
-                    </li>
-                    <li>
-                        unlimited practice sessions <i class="fa fa-book" aria-hidden="true"></i>
-                    </li>
-                    <li>
-                      progress tracking <i class="fa fa-pencil-square" aria-hidden="true"></i>
-                    
-                    </li>
-                    <li>
-                        customizable learning <i class="fa fa-pencil-square" aria-hidden="true"></i>
-                      
-                     </li>
-                     <li>
-                    compete globally with other candidates <i class="fa fa-pencil-square" aria-hidden="true"></i>
-                      
-                     </li>
-                    <li>
-                       Admission guide and tips <i class="fa fa-question-circle" aria-hidden="true"></i>
-                          
-                 </li>
-                    <li>
-                    <form action="initialize.php" method="post">
-                            <input type="number" name="amount" class="hidden" value= '2500'>
-                            <input type="number" name="plan" class="hidden" value= 'PREMIUM'>
-                           
-                        <button type="submit" name="pay_premium" class=" btn btn-warning">subscribe</button>
-                    </li>
-                </ul></p>
-              </div>
-            </div>
-        </div>
-        <div class="col rounded ulti  ">
-            <div class="card rounded ">
-              <img src="svg/aki.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-success">Ultimate plan</h5>
-                <h6 class="card-subtitle mb-2 text-success ">Price : <img src="svg/aira.png" class='aria' alt="">  5000</h6>
-                <p class="card-text text-white"><ul class="text-white float-end">
-                    <li>
-                        <b>Full time access (buy forever)<i class="fa fa-universal-access" aria-hidden="true"></i></b>
-                    </li>
-                    <li>
-                        Access full compedium past questions  <i class="fa fa-check text-success" aria-hidden="true"></i>
-                    </li>
-                    <li>
-                        unlimited practice sessions <i class="fa fa-book" aria-hidden="true"></i>
-                    </li>
-                    <li>
-                      progress tracking <i class="fa fa-pencil-square" aria-hidden="true"></i>
-                    
-                    </li>
-                    <li>
-                        customizable learning <i class="fa fa-pencil-square" aria-hidden="true"></i>
-                      
-                      </li>
-                      <li>
-                    compete globally with other candidates <i class="fa fa-pencil-square" aria-hidden="true"></i>
-                      
-                      </li>
-                      <li>
-                       Admission guide and tips <i class="fa fa-question-circle" aria-hidden="true"></i>
-                          
-                          </li>
-                    <li>
-                        <form action="initialize.php" method="post">
-                            <input type="number" name="amount" class="hidden" value= '5000'>
-                            <input type="number" name="plan" class="hidden" value= 'ULTIMATE'>
-                           
-                        <button type="submit" name="pay_ultimate" class=" btn btn-warning">subscribe</button>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img src="svg/rsm.jpg" class="card-img-top" alt="Premium Plan">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-primary">Premium Plan</h5>
+                        <h6 class="card-subtitle text-muted">
+                            <img src="svg/aira.png" class='aria' alt="">3000
+                        </h6>
+                        <ul class="card-text mb-4">
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Three months access</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Access up to 20 years past questions</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Unlimited practice sessions</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Progress tracking</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Customizable learning</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Compete globally</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Admission guide and tips</li>
+                        </ul>
+                        <form action="initialize.php" method="post" class="mt-auto">
+                            <input type="hidden" name="amount" value='2500'>
+                            <input type="hidden" name="plan" value='PREMIUM'>
+                            <button type="submit" name="pay_premium" class="btn btn-primary btn-subscribe">Buy Now</button>
                         </form>
-                       
-                    </li>
-                </ul></p>
-              </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img src="svg/aki.jpg" class="card-img-top" alt="Ultimate Plan">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title text-primary">Ultimate Plan</h5>
+                        <h6 class="card-subtitle text-muted">
+                            <img src="svg/aira.png" class='aria' alt="">5000
+                        </h6>
+                        <ul class="card-text mb-4">
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Full time access (buy forever)</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Access full compendium past questions</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Unlimited practice sessions</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Progress tracking</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Customizable learning</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Compete globally</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>Admission guide and tips</li>
+                        </ul>
+                        <form action="initialize.php" method="post" class="mt-auto">
+                            <input type="hidden" name="amount" value='5000'>
+                            <input type="hidden" name="plan" value='ULTIMATE'>
+                            <button type="submit" name="pay_ultimate" class="btn btn-primary btn-subscribe">Buy Now</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
-    <div class="container second">
-        <div class="row justify-content-center align-items-center g-2">
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
+        <div class="transaction-tips">
+            <h4>Tips for a Successful Transaction:</h4>
+            <ul>
+                <li>Ensure you have sufficient funds in your account before initiating the transaction.</li>
+                <li>Double-check the subscription details before confirming your purchase.</li>
+                <li>Use a secure and stable internet connection during the payment process.</li>
+                <li>Keep your payment information confidential and do not share it with anyone.</li>
+                <li>If you encounter any issues, please contact our support team for assistance.</li>
+            </ul>
         </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://js.paystack.co/v1/inline.js"></script>
 </body>
 </html>

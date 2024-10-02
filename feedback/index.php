@@ -1,105 +1,79 @@
 <?php
 session_start()?>
 
-
 <!DOCTYPE html>
-
-
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FEEDBACK | NMS PAST QUESTIONS COMPENDIUM</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="shortcut icon" href="/nms-logo.webp" type="image/x-icon">
-      <!-- Favicon -->
-    <link href="/jitassets/img/favicon.ico" rel="icon">
-
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<!--    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet"> -->
-	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet"> 
-
-
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
-    <!-- Libraries Stylesheet -->
-    <link href="/jitassets/lib/animate/animate.min.css" rel="stylesheet">
-    <link href="/jitassets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="/jitassets/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Template Stylesheet -->
-    <link href="/jitassets/css/style.css" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <style>
-
-.side {
-      position: fixed;
-      width: 40%;
-      height: 100%;
-      right: 0px;
-      text-align: center;
-      top: 10px;
-     
-
-    }
-    body{
-        height:150vh;
-    }
-
-    .side .bg {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background: url('/assets/Bg-for-army.jpg');
-      background-position: center;
-      background-size: cover;
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-      transform: scale(1);
-      z-index: -2;
-   margin-top: 0px;
-      opacity: 0.8;
-    }
-
-    .content {
-      margin-top: 25%;
-      font-family: 'Courier New', Courier, monospace;
-      font-size: 20px;
-      z-index: -1;
-    }
-    .cole{
-
-        left: 30px;
-        top: 0px;
-        width: 50%;
-        font-size: 19px;
-      
-    }
-    li{
-        font-style: italic;
-    }
-    a{
-        color:white;
-        font-size: 15px;
-        
-    }
-    *{
-        font-family:Arial, Helvetica, sans-serif;
-    }
-    label{
-        font-style:oblique;
-    }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .navbar {
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,.1);
+        }
+        .navbar-brand {
+            font-weight: 600;
+            color: #007bff;
+        }
+        .nav-link {
+            color: #333;
+            font-weight: 500;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+        .feedback-section {
+            background-color: #ffffff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+        .feedback-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .feedback-form label {
+            font-weight: 500;
+        }
+        .feedback-points {
+            background-color: #e9ecef;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .feedback-points ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .feedback-points li {
+            margin-bottom: 0.5rem;
+            font-style: normal;
+        }
+        .feedback-points li:before {
+            content: "\f058";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            margin-right: 10px;
+            color: #28a745;
+        }
+        .feedback-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
     </style>
 </head>
 <body>
-
-
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
         <a href="/" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
@@ -111,6 +85,8 @@ session_start()?>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="https://nmscompendium.com.ng/" class="nav-item nav-link active">Home</a>
+                   <a href="https://nmscompendium.com.ng/auth/login" class="nav-item nav-link ">Login</a>
+                     <a href="https://nmscompendium.com.ng/auth/signup" class="nav-item nav-link ">Get started</a>
                 <a href="https://nms1954.sch.ng/about-us/brief-history/" class="nav-item nav-link">About NMS</a>
                 <!-- <a href="https://nmscompendium.com.ng/guide/" class="nav-item nav-link">Quick Guide</a> -->
                 <a href="https://nmscompendium.com.ng/feedback/" class="nav-item nav-link">Contact Us</a>
@@ -120,88 +96,52 @@ session_start()?>
     </nav>
     <!-- Navbar End -->
 
+    <div class="container">
+        <div class="feedback-section">
+            <div class="feedback-header">
+                <h1 class="display-4">Leave Your Feedback</h1>
+                <p class="lead">We value your input to improve our services</p>
+            </div>
 
+            <div class="feedback-points">
+                <h5>We'd love to hear about:</h5>
+                <ul>
+                    <li>Features you'd like to see in the online compendium</li>
+                    <li>Any difficulties you're experiencing with the compendium</li>
+                    <li>Issues with questions or their options</li>
+                    <li>Any questions you might have</li>
+                    <li>Any other help or assistance you need</li>
+                </ul>
+            </div>
 
-    <div class="side bg-dark ">
+            <?php
+            if(isset($_SESSION['feedback'])) {
+            ?>
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                <strong>SUCCESS</strong> <?php echo $_SESSION['feedback'] ?>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <?php
+                unset($_SESSION['feedback']);
+            }
+            ?>
 
-        <div class="bg"></div>
-      
-   </div>
-      <div class="cole ">
-      <a href="/"> <img src="/nms-logo.webp" alt="" width="60" srcset=""></a> 
-    <div class="container mt-5">
-<h1 class="display-4">Leave a feedback </h1>
-
-       <div>
-        <ul>
-<li>
-     What features would you like us to include in the online compendium as to further aid your practice experience?</b>
-</li>
-<li>
-   Are you experiencing any difficulty using the online compendium?</b>
-</li>
-<li>
- Did you discover any problem with a question or its options?</b>
-</li>
-<li>
-    Have any question?
-</li>
-<li>
-    Do you need any other help or assistant?
-</li>
-<div class="text-info">please fill out the form </div>
-        </ul>
+            <form action="submit_feedback.php" method="post" class="feedback-form">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Your Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="feedback" class="form-label">Your Feedback</label>
+                    <textarea class="form-control" id="feedback" name="feedback" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit Feedback</button>
+            </form>
+        </div>
     </div>
-    <?php
-    if(isset($_SESSION['feedback'])) {
-  ?>
-  <div class="col pt-3 ml-5  ">
-  <div
-    class="alert alert-success alert-dismissible  show"
-   role="alert"
-  >
-    <button
-      type="button"
-      class="btn-close"
-      data-bs-dismiss="alert"
-      aria-label="Close"
-    ></button>
-    <strong>SUCCESS</strong> <?php echo $_SESSION['feedback'] ?>
-  </div>
-  </div>
-  <script>
-   
-    var alertList = document.querySelectorAll(".alert");
-    alertList.forEach(function (alert) {
-      new bootstrap.Alert(alert);
-    });
-  </script>
-  <?php
-    }
-
-    unset($_SESSION['feedback']);
-?>
-        <form action="submit_feedback.php" method="post">
-            <div class="form-group">
-                <label for="name">Your Name:</label>
-                <input type="text" class="form-control" id="name" name="name" required>
-            </div>
-            
-            <div class="form-group">
-                <label for="email">Your Email:</label>
-                <input type="email" class="form-control" id="email" name="email" required>
-            </div>
-            
-            <div class="form-group">
-                <label for="feedback">Your Feedback:</label>
-                <textarea class="form-control" id="feedback" name="feedback" rows="4" required></textarea>
-            </div>
-            
-            <button type="submit" class="btn btn-primary">Submit Feedback</button>
-        </form>
-        
-    </div>
-
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

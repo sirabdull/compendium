@@ -29,5 +29,3 @@ $mail->addReplyTo('support@nmscompendium.com.ng','NMS compendium');
 // $email must be predefined in the script
 $mail->addAddress($email);
 $mail->isHTML(true);
-
-?>

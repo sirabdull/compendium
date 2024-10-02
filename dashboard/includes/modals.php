@@ -59,7 +59,6 @@ include '../lib/candclass.PHP';
                                 <script>
                                     //year display loop
                                     let year = 2022;
-
                                     while (year >= 2000) {
                                         let parent = document.getElementById('year');
                                         let opt = document.createElement('option');
@@ -69,9 +68,6 @@ include '../lib/candclass.PHP';
                                         year--;
                                     }
                                     // Test preview values
-
-
-
                                 </script>
 
                             </select>
@@ -150,14 +146,9 @@ include '../lib/candclass.PHP';
     </div>
 
 
-
-
-
-
     <!-- Optional: Place to the bottom of scripts -->
     <script>
         const myModal = new bootstrap.Modal(document.getElementById('modalId'), options)
-hv
     </script>
 
 
@@ -278,11 +269,7 @@ hv
                                 </script>
 
                             </select>
-                        </div>
-                     
-
-
-                        
+                        </div>                        
                 </div>
                 <div class="modal-footer bg-dark ">
                     <button type="button" class="btn mr-5 float-start btn-secondary"

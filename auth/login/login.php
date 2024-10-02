@@ -1,55 +1,43 @@
 <?php
 session_start();
-/*
-
-
---THIS IS WHERE LOGIN  REQUEST ARE HANDLED------
-
-*/
 
 require "../../config/config.php";
 
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
+    $password = $_POST['pswd'];
 
+    $stmt = $conn->prepare("SELECT * FROM `registerd_candidates` WHERE `email` = ?");
+    $stmt->bind_param("s", $email);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    $row = $result->fetch_assoc();
 
- if(isset($_POST['remember'])){
-  
+    if ($result->num_rows <= 0 || $password !== $row['password']) {
+        $_SESSION['login_failed'] = "Invalid credentials!";
+        header("Location: /auth/login");
+        exit();
     }
 
-//header('Access-Control-Allow-Origin: *');
-
-   
-   
-    $email = $_POST['email'];
-    $password= $_POST['pswd'];
-   $_SESSION['email'] = $email;
-   $email = $_SESSION['email'];
-   $auth =  "SELECT * FROM `registerd_candidates` WHERE `email` = '$email' AND `password` = '$password'";
-    $exeauth= mysqli_query($conn,$auth);
-    $row = mysqli_fetch_assoc($exeauth);
-   
-    if(mysqli_num_rows($exeauth)<=0){
-        $_SESSION['login_failed'] = " Invalid credentials!!";
-        header("location:/auth/login");
-
+    if ($row['verification'] != 1) {
+        $_SESSION['login_failed'] = "Email not verified!";
+        header("Location: ../verification?email=" . urlencode($email));
+        exit();
     }
-   else if($row['verification'] != 1){
-    $_SESSION['login_failed'] = " Email not Verified!!";
-        header("location:../verification?email=$email");
+
+    if ($row['subscribed'] != 1) {
+        $_SESSION['login_failed'] = "Please subscribe to a plan to start practicing!";
+        header("Location: /subscription/sub.php?email=" . urlencode($email));
+        exit();
     }
-else if ($row['subscribed'] != 1){
-    $_SESSION['login_failed'] = "Please subscribe to a plan to start practing!!";
-    header("location:/subscription/sub.php?email=$email");
-    
+
+    $_SESSION['email'] = $email;
+
+    if (isset($_POST['remember'])) {
+        setcookie('remember', $email, time() + (86400 * 30), "/"); // 30 days
+    }
+
+    unset($_SESSION['login_failed']);
+    header("Location: /auth/authenticate.php?email=" . urlencode($email));
+    exit();
 }
-   
-    
-    else{
-       
-      $_SESSION['email'] = $email;
-      unset($_SESSION['login_failed']);
-     header("location:/auth/authenticate.php?email=$email");
-       
-    
-    }
-    
-?>                
